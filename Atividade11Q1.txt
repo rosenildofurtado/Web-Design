@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-c">
+    <link rel="stylesheet" href="css/Atividade11.css">
+    <title>Atividade 11 - Questão 1</title>
+</html>
+
+<body>
+    <header >
+        <ul>
+            <li>Home</li>
+            <li>Serviços</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </header>
+    <main>
+        <section><span class="texto">CONTENT</span></section>
+    <aside></aside>
+    </main>
+    
+    <footer><img src="Imagens/ifrn.jpg" alt="Logo do IFRN"></footer>
+</body>

@@ -1,0 +1,48 @@
+body{
+    background-color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+h2{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+    background-color: white;
+    border-radius: 5px;
+    width: 700pt;
+    border: black;
+    border-style: solid;
+}
+
+table th{
+    background-color: #f1f1f1;
+}
+
+.titulo{
+    color: blue;
+
+}
+footer{
+    background-color: cornsilk;
+    height: 100px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+p span{
+    color: red;
+    font-weight: bold;
+}
+
+.inform{
+    margin-top: 10px;
+    width: 500px;
+    text-align: center;
+    
+}
+

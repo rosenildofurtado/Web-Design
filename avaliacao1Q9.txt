@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Avaliação 1 Questão 9</title>
+    </head>
+
+    <body>
+        <p>Professor. Acho que o senhor falou que o atributo <mark>style</mark> é uma forma de usar css. Mas não consegui encontrar um atributo para produzir a <b>margem</b> que tem a direita e a esquerda do parágrafo. Por isso, usei duas maneiras de alinhar a imagem e o texto do jeito que está na avaliação.</p>
+
+        <h2>Usando o style para criar a margem no parágrafo</h2>
+        <section>
+            <section style="margin-right: 10%;">
+                <p > 
+                    <img src="Imagens/Angry.pnG" alt="Helicóptero montado com pinos mágicos" width="150" height="150" align="left">
+                    Angry Birds é uma série de jogos desenvolvidos pela finlandesa Rovio Entertainment. Inspirado no início por esboços de pássaros desenhados sem asas, o primeiro jogo foi lançado para Apple iOS em Dezembro de 2009.[2] Mais de 12 milhões de cópias foram compradas da Apple's App Store,[3] o que impulsionou a companhia a redesenhar versões para outros smartphones móveis de ecrã táctil, incluindo os sistemas operativos Android, Symbian e Windows Phone. A partir dai expandiu-se para os consoles e PC.
+                </p>
+            </section>
+            
+            <hr width="100%">
+    
+            <section style="margin-left: 10%;">
+                
+                <p align="left"> 
+                    <img src="Imagens/Angry.pnG" alt="Helicóptero montado com pinos mágicos" width="150" height="150" align="right">
+                    Angry Birds é uma série de jogos desenvolvidos pela finlandesa Rovio Entertainment. Inspirado no início por esboços de pássaros desenhados sem asas, o primeiro jogo foi lançado para Apple iOS em Dezembro de 2009.[2] Mais de 12 milhões de cópias foram compradas da Apple's App Store,[3] o que impulsionou a companhia a redesenhar versões para outros smartphones móveis de ecrã táctil, incluindo os sistemas operativos Android, Symbian e Windows Phone. A partir dai expandiu-se para os consoles e PC.
+                </p>
+            </section>
+            <br>
+            
+            <h2>Usando uma tabela</h2>
+            <table  width="90%">
+                <tr>
+                    <td><img src="Imagens/Angry.pnG" alt="Imagem de Angry" width="150" height="150"></td>
+                    
+                    <td> <span>Angry Birds é uma série de jogos desenvolvidos pela finlandesa Rovio Entertainment. Inspirado no início por esboços de pássaros desenhados sem asas, o primeiro jogo foi lançado para Apple iOS em Dezembro de 2009.[2] Mais de 12 milhões de cópias foram compradas da Apple's App Store,[3] o que impulsionou a companhia a redesenhar versões para outros smartphones móveis de ecrã táctil, incluindo os sistemas operativos Android, Symbian e Windows Phone. A partir dai expandiu-se para os consoles e PC.</span></td> 
+                </tr>
+            
+            </table>
+
+            
+            <hr width="100%">
+            
+
+            <table  width="90%" align="right">
+                <tr>
+                    <td> <span>Angry Birds é uma série de jogos desenvolvidos pela finlandesa Rovio Entertainment. Inspirado no início por esboços de pássaros desenhados sem asas, o primeiro jogo foi lançado para Apple iOS em Dezembro de 2009.[2] Mais de 12 milhões de cópias foram compradas da Apple's App Store,[3] o que impulsionou a companhia a redesenhar versões para outros smartphones móveis de ecrã táctil, incluindo os sistemas operativos Android, Symbian e Windows Phone. A partir dai expandiu-se para os consoles e PC.</span></td> 
+                    <td><img src="Imagens/Angry.pnG" alt="Imagem de Angry" width="150" height="150"></td>
+                </tr>
+            
+            </table>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+Questionário 14
+
+1) 
+Ele retorna a referência do elemento indicado pelo ID
+
+2)
+Ele retorna a referência do elemento indicado pelo nome da TAG "section" que é filho do elemento que tem o id="main"
+
+3)
+document, navigator, frames, location, history e screen
+
+4)
+a. 1
+b. 1dois
+c. 34
+d. 2
+
+5)

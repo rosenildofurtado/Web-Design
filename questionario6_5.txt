@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Questionário 6</title>
+        <meta charset="utf-8">
+        <style>
+            p{
+                color: rgb(0, 0, 0);
+                font-weight: bold;
+            }
+
+            ul{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+                list-style-type: square;
+            }
+            li{
+                margin-left: 30px;
+
+            }
+
+            body{
+                background-color: lightblue;
+                font-size: 16px;
+            }
+
+            header{
+                background-color: cornflowerblue;
+                height: 20%;
+                text-align: center;
+                margin-top: 0px;
+            }
+
+            footer{
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Bem vindos ao nosso Website</h1>
+            <h4>Estamos felizes em ver você por aqui</h4>
+        </header>
+
+        <section>
+            <ul>Algumas coisas legais para se ler ...
+                <li>Sobre fatos intrigantes!</li>
+                <li>CSS é divertido!</li>
+                <li>CSS é divertido!</li>
+            </ul>
+        </section>
+        
+        <footer id="aqui">
+            <p>
+                Obrigado por visitar a nossa página!!<br>
+                <a href="#aqui">Aqui está um link que não leva a nenhum lugar!! :)</a>
+            </p> 
+        </footer>
+    </body>
+</html>

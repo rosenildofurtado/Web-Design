@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <title>Avaliação 3 do Módulo 2 - Questão 5</title>
+    
+</html>
+
+<body>
+    <figure id="imagem">
+        <img src="Imagens/Angry.png" alt="Imagem de Angry Bird" width="300px" height="300px" onmouseover="mudaImagem();" onmouseout="retornaImagem();">
+    </figure>
+
+
+        <script type="text/javascript">
+            function mudaImagem(){
+                var im = document.getElementById("imagem").innerHTML = "<img src='Imagens/sol.jpg' alt='Imagem do sol' width='300px' height='300px'>";
+            }
+            
+            function retornaImagem(){
+                var im = document.getElementById("imagem").innerHTML = "<img src='Imagens/Angry.png' alt='Imagem de Angry Bird' width='300px' height='300px'>";
+            }
+        </script>
+</body>

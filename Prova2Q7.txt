@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Prova JavaScript</title>
+<script type="text/javascript">
+    
+    function abreJanela()
+			{
+			    var parameters = "height=400,width=450";
+			    newWindow = open("https://portal.ifrn.edu.br/campus/natalcentral", "newDocument", parameters);
+			}
+
+			function fechaJanela()
+			{
+			    newWindow.close();
+			}
+</script>
+
+</head>
+<body>
+    
+       <input type=button name="abre_janela" value="Abre Janela" onClick="abreJanela()">&nbsp; 
+            Clique para ir ao site do IFRN Central.
+	   <br><br>
+       <input type=button name="fecha_janela" value="Fecha Janela" onClick="fechaJanela()">&nbsp; 
+</body>
+</html>

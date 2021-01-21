@@ -1,0 +1,32 @@
+p{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-weight: bold;
+}
+
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    list-style-type: square;
+}
+li{
+    margin-left: 20px;
+
+}
+
+body{
+    background-color: lightblue;
+    font-size: 16px;
+}
+
+header{
+    background-color: cornflowerblue;
+    height: 20%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer{
+    background-color: cornflowerblue;
+    
+}

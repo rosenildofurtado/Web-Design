@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade 14</title>
+    </head>
+
+    <body>
+        <h1 id="tit" style="text-align: center;">Avaliação 2 - Questão 5</h1>
+        <form name="login" method="post" action="js/login.js">
+            <p>Informe usuario e senha nos campos respectivos</p>
+             Usuário: <input type=text name="usuario" value="">
+             <br><br>
+             Senha: <input type=password name="senha" value="">
+             <br><br>
+             <input type=button name="entrar" value="Entrar" onclick="valida()">
+             <br><br>    
+        </form>
+        <script type="text/javascript">
+            function valida(){
+                var usuario = document.forms[0].usuario.value;
+                var senha = document.forms[0].senha.value;
+            
+                if(usuario=="" || senha==""){
+                    alert("você não preencheu um dos campos.");
+                }
+                else if(usuario=="usuario" && senha=="senha"){
+                    alert("Seja bem vindo");
+                }
+                else{
+                    alert("O usuário ou a senha não correspondem");
+                }
+            }
+        </script>
+    </body>
+</html>

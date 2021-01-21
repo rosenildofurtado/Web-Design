@@ -1,0 +1,22 @@
+header{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+section{
+    width: 960px;
+    height: 360px;
+    background-image: url('../Imagens/gusteau.jpg');
+    background-size: 960px 360px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h2{
+    font-family: Gill Sans, Gill Sans MT,'Calibri', Trebuchet MS, sans-serif;
+    color: black;
+}

@@ -1,0 +1,26 @@
+1 - <caption>Primetime Television 1965</caption> deveria está dentro de <table>
+2 - Thursday Night deveria está antes de <table>
+3 - A primeira tag <tr> foi fechada sem nada dentro enquanto que as tags <th> não estão dentro de nenhuma <tr>
+4 - colspan não é uma tag é um atributo
+5 - a segunda tag <tr> não foi fechada
+6 - Se a ideia for seguir o padrão das outras linhas, que tem 3 células, então o colspan teria que ser igual a 2
+
+Rescrevendo o código ficaria:
+Thursday Night
+<table border="1">
+	<caption>Primetime Television 1965</caption>
+	<tr>
+		<th>7:30</th>
+		<th>8:00</th>
+		<th>8:30</th>        
+	</tr>
+	<tr>
+		<td>Shindig</td>
+		<td>Donna Reed Show</td>
+		<td>Bewitched</td>
+	</tr>
+	<tr>
+		<td colspan="2" >Laredo</td>
+		<td>Daniel Boone</td>
+	</tr>
+</table>

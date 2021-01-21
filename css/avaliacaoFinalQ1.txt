@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-c">
+    <title>Avaliação Final - Questão 1</title>
+    <style>
+        menu ul li{
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</html>
+
+<body>
+    <menu>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#"> Fale conosco</a></li>
+        </ul>
+    </menu>
+    </main>
+</body>

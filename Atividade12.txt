@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/Atividade12.css">
+    <link rel="shortcut icon" type="imagem/png" href="Imagens/bb.ico">
+    <title>Atividade 12 - Questão 1</title>
+</html>
+
+<body>
+    <header class="cabeca">
+        <figure class="logo"></figure>
+        <ul>
+            <li>Home</li>
+            <li>Serviços</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </header>
+
+    <main>
+        <section>
+            <p id="texto1">Só se preocupe em aproveitar a festa</p>
+            <p id="texto2">Nós cuidamos do resto</p>
+            <form action="Atividade12Q2.html"><button>Entre e Surpreenda-se</button></form>
+        </section>
+        
+    </main>
+</body>

@@ -1,0 +1,28 @@
+
+
+header{
+    width: 100%;
+    height: 200px;
+    background-image: url('../Imagens/ifrn.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+
+section{
+    width: 100%;
+    height: 200px;
+    background-image: url('../Imagens/ifrn.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: url('../Imagens/ifrn.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+

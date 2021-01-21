@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Prova JavaScript</title>
+
+<script type="text/javascript">
+    function mostra(){
+        var Nome = document.forms[0].nome.value;
+        var Sexo = document.forms[0].sexo.value;
+
+        alert("O nome é " + Nome + " e o sexo é " + Sexo);
+    }
+</script>
+
+</head>
+<body>
+	<strong>Formulário para atividade da prova.</strong>
+	<form name="frmCadastro" id="frmCadastro">
+		<fieldset>
+			<table>
+				<tr>
+				<td>Nome:</td>
+				<td><input type="text" name="nome" id="nome" /></td>
+				</tr>
+				<tr>
+				<td>Sexo:</td>
+				<td>
+				<input type="radio" name="sexo" value="M">Masculino<br />
+				<input type="radio" name="sexo" value="F">Feminino
+				</td>
+				<tr>
+				<td>Interesses:</td>
+				<td>
+				<input type="checkbox" name="interesses" id="javascript" /><label for="javascript">JavaScript</label>
+				<input type="checkbox" name="interesses" id="php" /><label for="php">PHP</label>
+				<input type="checkbox" name="interesses" id="html" /><label for="html">HTML</label>
+				</td>
+				<tr>
+				<td>
+				<input type="button" id="enviar" name="enviar" value="Enviar" onclick="mostra();"/>
+				</td>
+				<td>
+				<input type="reset" id="limpar" name="limpar" value="Limpar"/>
+				</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>

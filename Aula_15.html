@@ -1,0 +1,188 @@
+Eventos em JS
+<!DOCTYPE html>
+
+Exemplo 1
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<form action="#">
+    		Clique na caixa de texto a seguir:
+    		<br><br>
+    		
+    		<label for="pnome">Primeiro nome</label>
+    		<input type="text" id="pnome" name="pnome" autofocus>
+    		<br><br>
+    		<label for="snome">Sobrenome</label>
+    		<input type="text" id="snome" name="snome" onblur="window.alert('Eii, volte aquii!');">
+    		<br><br>
+    		<button value="Enviar">Enviar</button>
+
+    	</form>
+    </body>
+</html> 
+
+Exemplo 2
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<form action="#">
+    		Você está bem?
+    		<br><br>
+    		
+    		<select onchange="window.alert('Eii, porque você mudou isso?');">
+    			<option selected="selected">Sim</option>
+    			<option>Não</option>
+    			<option>Indeciso</option>
+    		</select>
+
+    	</form>
+    </body>
+</html> 
+
+Exemplo 3
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<form>
+    		<input type="button" value="Não clique aqui" onclick="window.alert('Eu disse a você que não clicasse, não foi? :(');">
+    	</form>
+
+    	<a href="http://www.globo.com" onclick="window.alert('Eii, você me clicou')">Não clique no botão</a>
+    </body>
+</html>
+
+Exemplo 4 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<form>
+    		<label>Informe seu nome:</label><br>
+    		<input type="text" name="nome" onfocus="window.alert('Don\'t forget a primeira letra Maiúscula!')";>
+    		<input type="text">
+    	</form>
+    </body>
+</html>
+
+Exemplo 5
+ Quando pressionamos a tecla
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<form>
+    		<label>Informe seu nome:</label><br>
+    		<input type="text" name="nome" onkeydown="window.alert('Don\'t forget a primeira letra Maiúscula!')";>
+    		<input type="text">
+    	</form>
+    </body>
+</html>
+
+Exemplo 6
+No momento entre clicar e abaixar a tecla
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<form>
+    		<label>Informe seu nome:</label><br>
+    		<input type="text" name="nome" onkeypress="window.alert('Don\'t forget a primeira letra Maiúscula!')";>
+    		<input type="text">
+    	</form>
+    </body>
+</html>
+
+Exemplo 7
+
+ Quando soltamos a tecla
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<form>
+    		<label>Informe seu nome:</label><br>
+    		<input type="text" name="nome" onkeyup="window.alert('Don\'t forget a primeira letra Maiúscula!')";>
+    		<input type="text">
+    	</form>
+    </body>
+</html>
+
+Exemplo 8
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body onload="window.alert('Eu carreguei a pagina agora, vou exibí-la para você!');">
+    	<form>
+    		<label>Informe seu nome:</label><br>
+    		<input type="text" name="nome" onkeyup="window.alert('Don\'t forget a primeira letra Maiúscula!')"; autofocus="">
+    		<input type="text">
+    	</form>
+    </body>
+</html>
+
+Exemplo 9
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<a href="http://www.ifrn.edu.br" onmouseover="window.alert('Eu disse a você que não tentasse clicar em mim!')";>Não tente clicar neste link</a>
+    </body>
+</html>
+
+Exemplo 10
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<a href="http://www.ifrn.edu.br" onmousemove="window.alert('Ei por que não clicou!')";>Clique aqui</a>
+    </body>
+</html>
+
+Exemplo 11
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Eventos em Javascript</title>
+    </head>
+    <body>
+    	<a href="http://www.ifrn.edu.br">
+    	<img src="IFRN.png" width="200" height="200" onmouseout="window.alert('Ei, você não gostou da logo?');">Clique na imagem</a>
+    </body>
+</html> 

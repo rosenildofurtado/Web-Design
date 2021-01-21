@@ -1,0 +1,21 @@
+#container{
+    font-size: 16px;
+}
+
+.main_heading{
+    background-color: gray;
+}
+
+.main{
+    background-color: blue;
+}
+
+.main_footer{
+    background-color: #666;
+}
+
+.main_heading, .main_footer{
+    color: red;
+    font-family: Arial;
+}
+

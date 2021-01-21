@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/avaliacao2.css">
+
+    </head>
+
+    <body style="background-color: cadetblue;">
+        <h1>Avaliação 2</h1>
+        <h2>Questão 6</h2>
+        <p>O CSS mudou a fonte do texto do parágrafo.</p>
+        <address>Rua x, número y</address>
+    </body>
+</html>
+
+
+body p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+address{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}

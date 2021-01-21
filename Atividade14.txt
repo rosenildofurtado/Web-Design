@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade 14</title>
+        <script type="text/javascript">
+            function abrirJanela(){
+                open("http://www.treinaweb.com.br");
+            }
+
+            function calcular(){
+                var a = document.getElementById('txa').value;
+                var b = document.getElementById('txb').value;
+                document.getElementById('soma').value=parseInt(a)+parseInt(b);
+                document.getElementById('sub').value=parseInt(a)-parseInt(b);
+                document.getElementById('mult').value=parseInt(a)*parseInt(b);
+                document.getElementById('div').value=parseInt(a)/parseInt(b);
+            }
+            
+            var pergunta = confirm("Você está gostando do curso?");
+            if(pergunta == true){
+                alert("Ficamos imensamente felizes que você esteja gostando!");
+            }else{
+                alert("Poxa! Em que podemos melhorar?");
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1 style="text-align: center;">Atividade 14</h1>
+        Clique no botão para ir para outra janela.
+        <input type=button name="abre_janela" value="Outra Janela" onClick="abrirJanela()">&nbsp; 
+        <br><br>
+
+        <table border="1" align="center">
+            <tr>
+                <th>Digite os números</th>
+                <td>A = <input id="txa" type=text name="nA" value="" > </td>
+                <td>B = <input id="txb" type=text name="nB" value="" > </td>
+                <td><input id="calc" type=button name="calcula" value="Calcular" onClick="calcular()">&nbsp; </td>
+            </tr>
+            <tr>
+                <td>Soma A + B</td>
+                <td>Subtrai A - B</td>
+                <td>Multiplica A * B</td>
+                <td>Divide A / B</td>
+            </tr>
+
+            <tr>
+                <td><input id="soma" type=label name="som" value="" > </td>
+                <td><input id="sub" type=label name="sb" value="" > </td>
+                <td><input id="mult" type=label name="multp" value="" > </td>
+                <td><input id="div" type=label name="dv" value="" > </td>
+            </tr>
+
+
+        </table>
+    </body>
+</html>

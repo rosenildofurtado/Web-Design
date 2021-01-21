@@ -1,0 +1,13 @@
+Questionário 16
+1 - 12
+2 - 
+
+4 - São empresas ou instituições que disponibilizam códigos pré-fabricados de JQuery.
+
+5 - A tag é chamada através do <script>
+<script type="text/javascript" src="endereço da lib" >
+	$(document).ready(function(){
+		$("body").html("<tag></tag>);
+		...
+	});
+</script>

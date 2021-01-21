@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade 13 - Questão 1</title>
+        <script src="js/Atividade13.js"></script>
+        
+    </head>
+    <body>
+        <a href="JavaScript: window.open('termo.pdf');">Termo</a>
+    </body>
+</html>

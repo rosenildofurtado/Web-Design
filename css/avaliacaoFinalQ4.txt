@@ -1,0 +1,8 @@
+a. {font-size: 1.5em;}
+b. {text-transform: capitalize;}
+c. {text-align: right;}
+d. {font-family: Verdana; font-size: 1.5em;}
+e. {letter-spacing: 3px;}
+f. {font: bold italic 1.2em Verdana;}
+g.{text-transform: uppercase;}
+h. {text-indent: 2em;}

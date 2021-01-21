@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <title>Avaliação 1 do Módulo 2 - Questão 1</title>
+    <script>
+        function confirma(){
+            confirm("Você  tem certeza que quer fazer a inclusão/alteração dos dados?");
+        }
+    </script>
+</html>
+
+<body>
+        <h3>Cadastre-se</h3>
+        
+        <form action="js/M2Avaliacao1.js">
+            <input type="text" name="usuario" placeholder="Digite seu nome de usuário" size="30" maxlength="60">
+            <br>
+            <input type="password" name="senha" placeholder="Digite sua senha" size="30" minlength="60">
+            <br>
+            
+        </form>
+        <input type=button name= "confirma" value="LOGAR" onclick="confirma();">
+        
+</body>

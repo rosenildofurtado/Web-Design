@@ -1,0 +1,3 @@
+alert(navigator.language);
+document.title="novo título";
+document.bgColor="red";

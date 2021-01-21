@@ -1,0 +1,17 @@
+body{
+    background-image: url('../Imagens/sol.gif');
+    background-repeat: no-repeat;
+    background-position: right 225px;
+}
+
+p{
+    width: 1000px;
+    height: 300px;
+    position:absolute;
+	left:50%;
+	top:50%;
+    margin-left:-500px;
+    margin-top:-150px;
+    border: solid;
+    padding: 10px;
+}

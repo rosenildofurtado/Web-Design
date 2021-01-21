@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+		<!--Título da página-->
+        <title>Box Model e Posicionamento de elementos</title>
+        <style>
+            blockquote{
+                float: right;
+                width: 275px;
+                font-size: 130%;
+                font-style: italic;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                margin: 0px 0px 10px 10px;
+                padding-top: 10px;
+                border-top: 1px solid #655456 ;
+            }
+            .sec1{
+                width: 230px;
+                height: 100px;
+                float: left;
+                margin: 5px;
+                position: fixed;
+                top: 50px;
+                right: 75px;
+                background-color: rgb(255, 0, 212);
+                z-index: 3;
+            }
+            .sec2{
+                width: 230px;
+                height: 100px;
+                float: left;
+                margin: 5px;
+                position: relative;
+                top: -25px;
+                right: 75px;
+                background-color: blue;
+                z-index: 2;
+            }
+            .sec3{
+                width: 230px;
+                height: 100px;
+                float: left;
+                margin: 5px;
+                position: absolute;
+                top: 50px;
+                right: 75px;
+                background-color: rgb(0, 255, 13);
+            }
+            ol{
+                list-style-type: upper-roman;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+
+    <body >
+        <h1>A evolução da bicicleta</h1>
+        <ol type="I">
+            <li><a href="#">Home</a></li>
+            <li>Produtos
+                <ul>
+                    <li><a href="#bolos">Bolos</a></li>
+                    <li><a href="#brownie">Brownie</a></li>
+                    <li><a href="#cookies">Cookies</a></li>
+                </ul>
+            </li>
+            <li><a href="Atividade06Page2.html">Faça seu cadastro</a></li>
+            <li><a href="endereco">Faça sua encomenda</a></li>
+            
+        </ol>
+        <blockquote>
+            Cerca de dez anos depois, o escocês John Boyd desenvolveu a câmara de ar para a bicicleta do filho.
+        </blockquote>
+        <p>
+            Em 1960
+        </p>
+       Estamos antes do bloco
+       <div class="box">
+           <span>Conteúdo do bloco</span>
+           este containe
+       </div>
+       <section class="sec1"></section>
+       <section class="sec2"></section>
+       <section class="sec3"></section>
+
+       Estamos depois de um box
+    </body>
+</html>

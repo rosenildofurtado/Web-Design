@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <title>Avaliação 1 do Módulo 2 - Questão 2</title>
+    
+</html>
+
+<body>
+        <h3>O número maior</h3>
+        <script>
+            var n1 = prompt('Número 1');
+            var n2 = prompt('Número 2');
+
+            if(n1<n2)
+                document.write("O número 1 é menor que o número 2");
+            else
+                document.write("O número 2 é menor ou igual ao número 1");
+        </script>
+</body>

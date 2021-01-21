@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulário Cadastro HTML/JS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/Atividade15.css">
+</head>
+<body>
+	<form action="mailto:teste@gmail.com" method="POST" name="cadastro">
+		<p>Por favor, preencha os campos abaixo e depois clique no botão  Enviar.
+		   Caso necessite apagar os dados, dê um clique no botão Limpar. <br>
+		   Muito obrigado <br><br><br>
+		</p>
+		<label>Nome completo: </label>
+		<input class="caixa" type="text" name="nome"> <!-- Defina o tamanho da caixa para 35 -->
+		<br>
+		<label>Seu e-mail: </label>
+		<input class="rad" type="text" name="email"> <!-- Defina o tamanho da caixa para 35 -->
+ 		<br>
+ 		<label>Sexo: </label>
+ 		<input class="rad" type="radio" name="sexo" value="f"> Feminino <br>
+ 		<input class="rad" type="radio" name="sexo" value="m"> Masculino <br><br> <!-- Defina Masculino como selecionado -->
+ 		<label>Estado Civil: </label>
+ 		<input class="rad" type="radio" name="civil" value="s"> Solteiro <br>
+ 		<input class="rad" type="radio" name="civil" value="c">
+ 		Casado <br>
+ 		<input class="rad" type="radio" name="civil" value="e"> Enrolado <br><br>
+
+ 		<label>Bens que possui: </label>
+ 		<input class="rad" type="checkbox" name="bens" value="Casa"> Casa <br>
+ 		<input class="rad" type="checkbox" name="bens" value="Moto"> Moto <br>
+ 		<input class="rad" type="checkbox" name="bens" value="Automovel"> Automóvel <br><br>
+
+ 		<label>Faixa de idade: </label>
+ 		<select class="rad" name="faixaidade">
+ 			<option value="3a10">3 a 10 anos</option>
+ 			<option value="11a25">11 a 25 anos</option>
+ 			<option value="26a35">26 a 35 anos</option>
+ 			<option value="35a55">35 a 55 anos</option>
+ 			<option value="56a90">56 a 90 anos</option>
+ 		</select>
+
+ 		<br><br>
+ 		<label>Label preferido: </label>
+ 		<select class="rad" name="hobby">
+ 			<option value="livros">Ler livros</option>
+ 			<option value="musica">Ouvir música</option>
+ 			<option value="cinema">Assistir filmes</option>
+ 			<option value="esporte">Praticar esportes</option>
+ 			<option value="games">Jogar games</option>
+ 		</select>
+
+ 		<br><br>
+
+ 		Observações Gerais: <br>
+ 		<textarea name="observacoes" rows="5" cols="60" focus></textarea>
+
+ 		<br><br>
+ 		<input type="submit" value="Enviar dados">
+ 		<input type="reset" value="Limpar os dados">
+
+	</form>
+
+</body>
+</html>

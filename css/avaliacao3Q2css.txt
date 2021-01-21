@@ -1,0 +1,16 @@
+p{
+font-family: sans-serif;
+line-height: 1.2em;
+}
+
+blockquote{
+line-height: 1.5em;
+color: gray;
+}
+
+body{
+background-color: black;
+color: #666;
+margin-left: 12px; 
+margin-right: 12px;
+} 

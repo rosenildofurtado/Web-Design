@@ -1,0 +1,24 @@
+Questão 3
+
+INLINE: <input type="button" name="a" onclick="alert('deu certo');"/>
+INTERNO: <script>
+                document.write("O número 1 é menor que o número 2");
+        </script>
+EXTERNO: <script type="text/javascript" src="av2.js"></script>
+
+Questão 7
+
+<script type="text/javascript">
+            var custo = 2.59;
+            var istrue = false;
+            var nada1 = null;
+            document.write("João falou Said,\"Javascript é show!\"");
+        </script>
+		
+Questão 8
+
+var nome = "Jose";
+var sobrenome = " Maria";
+var nomeComp = nome + sobrenome;
+document.write(nomeComp);
+

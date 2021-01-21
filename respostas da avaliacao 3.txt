@@ -1,0 +1,81 @@
+Avaliação 3
+1)
+seletor = blockquote, declaração = {line-height: 1.5;}, propriedade = line-height: e valor = 1.5
+
+2)
+p{
+font-family: sans-serif;
+line-height: 1.2em;
+}
+blockquote{
+line-height: 1.5em;
+color: gray;
+}
+body{
+background-color: black;
+color: #666;
+margin-left: 12px; 
+margin-right: 12px;
+}      
+
+3)
+tudo que estiver dentro da div que tem a id="intro". No caso, div p img, div p strong, div ul li
+
+4)
+tag é o identificador do tipo de conteúdo enquanto que o elemento é o conteúdo em si.
+por exemplo: <header> Aqui é o cabeçalho </header> tudo é um elemento semântico de cabeçalho porque está identificado pela tag <header>
+
+5)
+Acho que o senhor quis dizer declarações em HTML
+a.  <img src="birthday.jpg" alt="Informação sobre a imagem">
+b.  <em>Congratulations!</em>
+c.  <a href="file.html">linked text</a>
+d.  <p>This is a new paragraph</p>
+
+6)
+O id tem que ser único para cada elemento enquanto que a mesma classe pode ser usada por vários elementos
+
+7)
+1 - <caption>Primetime Television 1965</caption> deveria está dentro de <table>
+2 - Thursday Night deveria está antes de <table>
+3 - A primeira tag <tr> foi fechada sem nada dentro enquanto que as tags <th> não estão dentro de nenhuma <tr>
+4 - colspan não é uma tag é um atributo
+5 - a segunda tag <tr> não foi fechada
+6 - Se a ideia for seguir o padrão das outras linhas, que tem 3 células, então o colspan teria que ser igual a 2
+
+Rescrevendo o código ficaria:
+Thursday Night
+<table border="1">
+	<caption>Primetime Television 1965</caption>
+	<tr>
+		<th>7:30</th>
+		<th>8:00</th>
+		<th>8:30</th>        
+	</tr>
+	<tr>
+		<td>Shindig</td>
+		<td>Donna Reed Show</td>
+		<td>Bewitched</td>
+	</tr>
+	<tr>
+		<td colspan="2" >Laredo</td>
+		<td>Daniel Boone</td>
+	</tr>
+</table>
+
+8)
+A) post, B) get, C) post e D) post
+
+9)
+a.  <input type="text" name="pais" value="Seu país aqui">
+b.  <input type="checkbox" name="cor" value="prata">
+c.  <select name="frutas">                    
+		<option value="laranja">Laranja</option>
+		<option value="uva">Uva</option>
+		<option value="cereja">Cereja</option>
+	</select>
+d.  <input type="password" name="senha">
+e.  <textarea name="dados" cols="100" rows="6">Sua história:</textarea>
+
+10)
+letra c

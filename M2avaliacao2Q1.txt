@@ -1,0 +1,4 @@
+function novaJanela(){
+	var parameters = "height=400,width=350";
+	newWindow = open("novajanela.html", "newDocument", parameters);
+}

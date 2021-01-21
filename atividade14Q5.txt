@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade 14</title>
+        
+        <script type="text/javascript">
+
+            function alertOnFocus1()
+				{
+				    alert("Você clicou no sim");
+				    //hack to overcome bug in some versions of NN
+				    document.forms[0].textBox2.blur();
+                }
+            function alertOnFocus2()
+				{
+				    alert("Você clicou no não");
+				    //hack to overcome bug in some versions of NN
+				    document.forms[0].textBox2.blur();
+				}
+
+			function alertOnBlur()
+				{
+				    alert("Você não clicou em nenhum radio");
+				}
+        </script>
+    </head>
+
+    <body>
+        <h1 id="tit" style="text-align: center;">Atividade 14</h1>
+        <form name="formExemplo" method="post" action="mailto:helder@gmail.com">
+            
+             <p>Escolha sim ou não e depois clique fora</p>
+             <input type=radio name="escolha" value="sim" onFocus="alertOnFocus1()" onBlur="alertOnBlur()">sim
+             <br><br>
+             <input type=radio name="escolha" value="nao" onFocus="alertOnFocus2()" onBlur="alertOnBlur()">nao
+             <br><br>    
+        </form>
+    </body>
+</html>

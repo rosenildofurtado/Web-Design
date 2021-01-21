@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+		<!--Título da página-->
+        <title>Cores e backgrounds</title>
+        <style>
+            p{
+                color: #ff00ff;
+                background-color:seagreen;
+            }
+            h1:hover{
+                color: red;
+            }
+            h2{
+                color: purple;
+            }
+            body{
+                background-color: #bdc3c7;
+            }
+
+            #lista{
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>Testando o estilo do paragráfo.</p>
+        <h1>Questionário 6</h1>
+
+        <h2>Lista</h2>
+        <ul id="lista">
+            <li >Prática de exercicios</li>
+            <li >Muito estudo</li>
+        </ul>
+    </body>
+</html>

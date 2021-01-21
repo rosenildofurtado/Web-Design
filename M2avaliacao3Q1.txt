@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <title>Avaliação 3 do Módulo 2 - Questão 1</title>
+    
+</html>
+
+<body>
+        <script type="text/javascript">
+            var a = parseInt(window.prompt("Digite o primeiro número"));
+            var b = parseInt(window.prompt("Digite o segundo número"));
+            var soma = a+b;
+            window.alert("A soma de "+a+" + " + b + " é igual a "+ soma);
+        </script>
+</body>

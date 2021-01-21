@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Prova 2 - Questão 9</title>
+    </head>
+
+<body>
+    <h3>Passe o ponteiro do mouse em cima da imagem e clique no botão para voltar a imagem original.</h3>
+    <figure id="imagem">
+        <img src="Imagens/Angry.png" alt="Imagem de Angry Bird" width="200px" height="200px" onmouseover="mudaImagem();" onmouseout="retornaImagem();">
+    </figure>
+
+    <input type="button" id="voltar" name="enviar" value="Enviar" onclick="retornaImagem();"/>
+        <script type="text/javascript">
+            function mudaImagem(){
+                var im = document.getElementById("imagem").innerHTML = "<img src='Imagens/sol.jpg' alt='Imagem do sol' width='200px' height='200px'>";
+            }
+            
+            function retornaImagem(){
+                var im = document.getElementById("imagem").innerHTML = "<img src='Imagens/Angry.png' alt='Imagem de Angry Bird' width='200px' height='200px'>";
+            }
+        </script>
+</body>
+
+</html>

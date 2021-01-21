@@ -1,0 +1,32 @@
+.area1{
+    width: 200px;
+    height: 400px;
+    background-color:blue;
+}
+
+.area2{
+    width: 200px;
+    height: 400px;
+    background-color:yellow;
+    position: relative;
+    left: 200px;
+    top: -400px;
+}
+
+.area3{
+    width: 200px;
+    height: 400px;
+    background-color:red;
+    position: relative;
+    left: 400px;
+    top: -800px;
+}
+
+.area4{
+    width: 400px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left: 200px;
+    top: -900px;
+}

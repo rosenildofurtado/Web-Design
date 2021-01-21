@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/Atividade12Q2.css">
+    <link rel="shortcut icon" type="imagem/png" href="Imagens/bb.ico">
+    <title>Atividade 12 - Questão 1</title>
+</html>
+
+<body>
+    <header class="cabeca">
+        <figure class="logo"></figure>
+        <ul>
+            <li>Home</li>
+            <li>Serviços</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </header>
+
+    <main>
+        
+        <form action="Atividade12.html">
+            <input type="text" name="usuario" placeholder="Digite seu nome de usuário" size="30" maxlength="60">
+            <br>
+            <input type="password" name="senha" placeholder="Digite sua senha" size="30" minlength="60">
+            <br>
+            <button>ENTRAR</button>
+        </form>
+        
+    </main>
+</body>

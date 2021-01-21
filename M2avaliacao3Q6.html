@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade 14</title>
+    </head>
+
+    <body>
+        <script>
+            function mudaBgColor()
+			{
+			    document.bgColor = "lightgreen";
+			}
+
+			function restauraBgColor()
+			{
+			    document.bgColor = "white";
+			}
+
+			function mudaFgColor()
+			{
+			    document.fgColor = "blue";
+			}
+
+			function altera()
+			{
+                document.fgColor = "black";
+                document.getElementById("nome").style.color = "green";
+                document.getElementById("enviar").style.background = "yellow";
+                document.getElementById("Limpar").style.fontStyle ="italic";
+            }
+
+          
+        </script>
+        <p id="nome">Muda a cor do nome</p>
+        <input id="enviar" type=button name="muda_bg_color" value="Enviar" onClick="mudaBgColor()">&nbsp; 
+        Clique aqui para mudar a cor de fundo deste documento
+        <br><br>
+        <input id="Limpar" type=button name="restaura_bg_color" value="Limpa" onClick="altera()">&nbsp; 
+        Clique aqui para restaurar a cor de fundo de novo
+        <br><br>
+        </body>
+    </html>

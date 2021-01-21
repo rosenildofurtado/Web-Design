@@ -1,0 +1,16 @@
+
+#pr {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+.mudar{
+    color: chartreuse;
+}

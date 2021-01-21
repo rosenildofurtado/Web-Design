@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Avaliação 1 Questão 10</title>
+</head>
+
+<body>
+	<h3>Preencha o formulário abaixo:</h3>
+	<form method="post" action="">
+		<p>Preencha as informações solicitadas abaixo: </p> <br>
+	
+			<p>
+				Usuário: <input type="text" name="usuario" size="40" maxlength="60">
+            </p>
+            <br>
+			<p>
+				Senha: <input type="password" name="senha" size="20" minlength="13">
+            </p>
+            
+            <p>Digite seus comentários</p>
+            <textarea name="comentario" cols="50" rows="5">
+				
+            </textarea> 
+            <br>
+            
+			<p>Informe seu gênero: </p>
+			<input type="radio" name="sexo">Masculino
+			<input type="radio" name="sexo">Feminino
+			<input type="radio" name="sexo">Não quero informar
+			<br>
+            
+            <p>Como você conheceu o nosso site?
+                <select name="opcao" id="op">
+                    <option value="web">Na web</option>
+                    <option value="amigo">Amigos</option>
+                    <option value="trabalho">No trabalho</option>
+                    <option value="escola">Na escola</option>
+                </select>
+            </p>
+            <br>
+
+			<p>Que tipo de filmes você gosta: </p>
+			<input type="checkbox" name="genero">Ação
+			<input type="checkbox" name="genero">Drama
+            <input type="checkbox" name="genero">Comédia
+            <input type="checkbox" name="genero">Terro
+            <input type="checkbox" name="genero">Infantis
+			<br>
+			
+			<p>Se preferir, envie um arquivo para nós! </p>
+			<input type="file" name="arquivo"> <br>
+			<input type="submit" name="submeter">
+			<br><br>
+			<button ><img src="Imagens/r.ico" alt="enviar" width="20" height="20" /> Enviar Dados</button>
+		</form>
+	</section>
+	
+</body>
+</html>

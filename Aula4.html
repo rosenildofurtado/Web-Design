@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Elementos Semânticos e Formulários</title>
+	<meta charset="utf-8">
+	<link rel="rel" type="imagem/png" href="imagens/favicon.ico" />
+</head>
+<body bgcolor="lightyellow">
+	<header>
+		<img src="imagens/logo.png" alt="Logo Empresa"> 
+		<span>Empresa de Projetos de Design Web</span>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="quemsomos.html">Quem somos</a></li>
+				<li><a href="catalogo.html">Catálogo Produtos</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h1>Nossa empresa pode ajudar você nos projetos que atendam sua empresa</h1>
+		<p>Vejam alguns de nossos serviços:</p>
+		<ol type="I">
+			<li>Sites Personalizados</li>
+			<li><strong>Projetos Mobile</strong></li>
+			<li><em>Criação de Logomarcas</em></li>
+		</ol>
+	</section>
+	<section>
+		<h3>Precisa de mais informações, mande-nos suas dúvidas pelo formulário abaixo:</h3>
+		<form method="get" action="contato.php">
+			<p>Preencha as informações solicitadas abaixo: </p> <br>
+			<fieldset>
+				<legend>Fale-nos um pouco sobre você</legend>
+				<p>
+					Nome: <input type="text" name="nome" placeholder="Digite seu nome e sobrenome" size="30" maxlength="60">
+				</p>
+				<p>
+					Contato: <input type="text" name="contato" size="20" minlength="13">
+				</p>
+				<p>Informe seu gênero: </p>
+				<input type="radio" name="sexo">Masculino
+				<input type="radio" name="sexo">Feminino
+				<input type="radio" name="sexo">Não quero informar
+				<br>
+			</fieldset>
+			<p>Fale sobre sua empresa: </p>
+			<input type="checkbox" name="empresa">Comercial
+			<input type="checkbox" name="empresa">Indústria
+			<input type="checkbox" name="empresa">Serviços
+			<br>
+			<p>Do que você precisa: </p>
+			<select name="serviço" multiple="multiple" size="3">
+				<option value="site">Site Web</option>
+				<option value="mobile">App</option>
+				<option value="logomarca">Logomarca</option>
+			</select>
+			<p>Registre aqui suas dúvidas: </p>
+			<textarea name="duvidas" cols="20" rows="5">
+				Digite seus comentários
+			</textarea> 
+			<p>Se preferir, envie um arquivo para nós! </p>
+			<input type="file" name="arquivo"> <br>
+			<input type="submit" name="upload">
+			<br><br>
+			<button ><img src="imagens/transferir.png" alt="enviar" width="20" height="20" /> Enviar Dados</button>
+		</form>
+	</section>
+	<br>
+	<hr>
+	<footer>
+		<span><img src="imagens/favicon.ico">Visible Designs - Avenida Prudente de Morais, 8361 - Candelária - Natal/RN - Contato: 55+ 84 3234.5876</span>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Avaliação Final - Questão 10</title>
+    <meta charset="utf-8">
+    <style>
+        p{
+            float: right;
+        }
+        aside{
+            width: 20px;
+            height: 20px;
+            background-color: cyan;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Ui babou</p>
+    <aside></aside>
+
+</body>
+</html>
